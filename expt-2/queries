@@ -1,3 +1,37 @@
+--Table creation
+create table SUPPLIER(s_no varchar(10) not null, sname varchar(15) not null, age int not null, city varchar(15) not null, primary key(s_no));
+insert into SUPPLIER values('S001','ivan bayross',35,'bombay');
+insert into SUPPLIER values('S002','nirmala agarwal',35,'madras');
+insert into SUPPLIER values('C003','susmitha',55,'bombay');
+insert into SUPPLIER values('C004','basu navindgi',45,'bombay');
+insert into SUPPLIER values('C005','ravi sreedharan',25,'delhi');
+insert into SUPPLIER values('C006','nanda gopal',25,'madras');
+
+create table CUSTOMER(cust_no varchar(10) not null,name varchar(15) not null,age int not null,city varchar(15) not null,pincode int not null,state varchar(15) not null,primary key(cust_no));
+insert into customer values('C00001','ivan bayross',35,'bombay',400054,'maharastra');
+insert into customer values('C00002','vandana saitval',35,'madras',780001,'tamil nadu');
+insert into customer values('C00003','pramada jaguste',55,'bombay',400057,'maharastra');
+insert into customer values('C00004','basu navindgi',45,'bombay',400056,'maharastra');
+insert into customer values('C00005','ravi sreedharan',25,'delhi',100001,'delhi');
+insert into customer values('C00006','rukmini',25,'madras',780001,'tamil nadu');
+
+create table PRODUCT(prod_no varchar(10) not null, description varchar(15) not null, company varchar(15) not null, price int not null, primary key(prod_no));
+insert into product values('P00001','12W flood light','wipro',5000);
+insert into product values('P00002','laptop adaptor','dell',1560);
+insert into product values('P00003','tablet','hcl',11000);
+insert into product values('P00004','garnet 50W led','wipro',999);
+insert into product values('P00005','laptop charger','hcl',1690);
+
+create table PURCHASE (order_no varchar(10) not null, cust_no varchar(10) not null, prod_no varchar(10) not null, quantity int not null, orderdate date, primary key(order_no), foreign key(cust_no) references customer(cust_no) on delete cascade, foreign key(prod_no) references product(prod_no) on delete cascade);
+insert into purchase values('O00001','C00002','P00003',2,'20-jan-16');
+insert into purchase values('O00002','C00003','P00002',1,'22-jan-16');
+insert into purchase values('O00003','C00006','P00001',3,'20-feb-16');
+insert into purchase values('O00004','C00003','P00005',4,'02-apr-16');
+insert into purchase values('O00005','C00004','P00002',2,'22-may-16');
+insert into purchase values('O00006','C00005','P00004',1,'26-may-16');
+
+--queries
+
 1. select sname from customer where city='madras';
 
 SNAME
