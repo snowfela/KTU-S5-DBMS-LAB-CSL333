@@ -6,20 +6,18 @@ TABLE DESIGN:
 
 QUESTIONS:
 
-Write nested queries for the following
-1. List customer- numbers of all who purchased the product 'laptop adapter' during January
-2. Get customer names of all who purchased p00002
-3. List customer- numbers of all who have purchased products with cost more than Rs 1600 
-4. List customer- names of all who have purchased products with cost more than Rs 1500 during January
-5. List customer- numbers of all who have purchased products with cost less than Rs 1600 
-6. Get customer numbers of purchases such that the qty is more than maximum qty of all purchases of c00002
-7. Get the name of all the customers who have not purchased any item currently
-8. Get the name of all customers who have purchased at least one item from wipro
-
-Write correlated queries for the following
-1. List all customer- number pairs such that cost of the item purchased by the first customer is less than that of second customer 
-2. List pairs of customer names of all who has purchased products with cost less than Rs 1600 
-3. Get product nos of all products purchased by more than one customer
-4. Get the name of customers who have purchased the item p00002
-5. Get the name of customers who have not purchased the item p00002
-6. Get the name of customers who have purchased at least all those products purchased by C00004
+1. Select all customers with a customer name starting with "a"
+2. Select all customers with a customer name starting with "a" or "a"
+3. Modify customer names such that all customer names start with a capital letter
+4. Find city values ending with "a"
+5. Return first 3 characters of salesman id  //left
+6. Find  salesman ids with "tmp" in any position 
+7. Find count of city values that start with "t"
+8. Select customer names starting with d and of atleast 4 characters
+9. Find city values that start with "k" and are at least 2 characters in length. 
+10. Find city values that start with "k" and are at least 7 characters in length .
+11. Find city values that start with "k" and ends with "m".
+12. Display salesman details with salesman_id, total amount given as discount and maximum discount provided by him in percentage with % symbol.
+13. Display city names in uppercase.
+14. Update salesman_id of all salesman from ernakulam by removing the prefix "ekm" .
+15. Display total sales amount of each salesperson till today with today's date in dd-mon-yyyy.
