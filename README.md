@@ -1,1 +1,1 @@
-S5 DBMS Lab programs of KTU syllabus
+Welcome to my GitHub repository for the Database Management Systems Lab (CSL333) in Semester 5 under the KTU syllabus. This repository contains all the lab programs that I have completed as part of this course.
