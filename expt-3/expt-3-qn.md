@@ -1,6 +1,7 @@
 AIM: Write queries to create and retrieve department and employee relations using relationship constraints, indices, DDL &DML commands, Views, built in functions, set operations, aggregate functions, grouping and ordering clauses.
 
 TABLE DESIGN:
+
 ![table3](https://github.com/snowfela/KTU-S5-DBMS-LAB-CSL333/assets/115859731/ad361219-36c6-4a38-be95-c10b1053d526)
 
 QUESTIONS:
