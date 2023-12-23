@@ -2,6 +2,7 @@ AIM: Write queries to create and retrieve data from customer relation using stri
 
 TABLE DESIGN:
 
+
 ![table4](https://github.com/snowfela/KTU-S5-DBMS-LAB-CSL333/assets/115859731/f57777d3-897f-48d5-bead-a215401c78e1)
 
 QUESTIONS:
