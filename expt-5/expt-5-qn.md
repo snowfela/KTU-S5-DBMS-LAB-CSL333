@@ -1,6 +1,7 @@
 AIM: Write queries to create & retrieve customer-product relationship. 
 
 TABLE DESIGN:
+
 ![table5](https://github.com/snowfela/KTU-S5-DBMS-LAB-CSL333/assets/115859731/89d2c98e-d790-482b-a16e-1e7347deae48)
 
 QUESTIONS:
