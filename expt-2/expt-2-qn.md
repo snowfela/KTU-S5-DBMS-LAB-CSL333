@@ -1,6 +1,7 @@
 AIM: Write queries to create & retrieve customer product relationship, constrains, built in functions, group by, order by, view, drop, DML commands.
 
 TABLE DESIGN:
+
 ![table2](https://github.com/snowfela/KTU-S5-DBMS-LAB-CSL333/assets/115859731/aa11b94d-ddd4-4bb7-878a-5f547ac08902)
 
 QUESTIONS:
